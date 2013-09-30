@@ -93,6 +93,6 @@ then you would be able to write foo.flip() in your program.
 
 ## Manufactoria
 
-#3, #4a, #4b
+Exercises #3, #4a, #4b
 
 If you didn't finish [Manufactoria](http://pleasingfungus.com/Manufactoria/) puzzle #3, please finish it now.  Do both of the puzzles that branch from #3.
