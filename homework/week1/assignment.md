@@ -133,9 +133,9 @@ In general, what will this program output, given any input in slot 10?
 
 ## 4. Reading
 
-Read chapter 1 of How to Think Like a Computer Scientist
+Read chapter 1 of *Think Python: How to Think Like a Computer Scientist*
 
-Most readings for the beginning of the class will come from this textbook.  You can find this in the class resources directory as a pdf, but you can also access it online [here](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap01.html)
+Most readings for the beginning of the class will come from this textbook.  You can also access it online [here](http://www.greenteapress.com/thinkpython/)
 
 
 ## 5. Finally:
