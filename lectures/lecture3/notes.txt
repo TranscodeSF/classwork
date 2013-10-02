@@ -1,0 +1,13 @@
+Review:
+* Lists, slices, dicts
+* Assignment
+* Running python programs from the command line
+* Turning in homework with git
+
+Introduce:
+* if
+* for
+* while
+
+In-class exercise:
+Rock, Paper, Scissors
