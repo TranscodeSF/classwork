@@ -1,0 +1,173 @@
+Python 2.7.2 (default, Oct 11 2012, 20:14:37) 
+[GCC 4.2.1 Compatible Apple Clang 4.0 (tags/Apple/clang-418.0.60)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> product = 1
+>>> for i in range(1,11):
+...   print product
+...   product = i * product
+... 
+1
+1
+2
+6
+24
+120
+720
+5040
+40320
+362880
+>>> for i in range(1,11):
+... for i in range(1,11):
+  File "<stdin>", line 2
+    for i in range(1,11):
+      ^
+IndentationError: expected an indented block
+>>> 
+>>> product = 1
+>>> for i in range(1,11):
+...   product = i * product
+...   print product
+... 
+1
+2
+6
+24
+120
+720
+5040
+40320
+362880
+3628800
+>>> x = 3
+>>> x = x * 4
+>>> x = x + 5
+>>> x
+17
+>>> x = 3
+>>> 
+>>> 
+>>> product = 1
+>>> i = 1
+>>> product = i * product
+>>> print product
+1
+>>> i = 2
+>>> product = i * product
+>>> print product
+2
+>>> i = 3
+>>> product = i * product
+>>> print product
+6
+>>> i = 4
+>>> product = i * product
+>>> print product
+24
+>>> range(1, 11)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>> for i in [1, 2, 3, 4, 5 ,6, 7, 8 , 9 10]:
+  File "<stdin>", line 1
+    for i in [1, 2, 3, 4, 5 ,6, 7, 8 , 9 10]:
+                                          ^
+SyntaxError: invalid syntax
+>>> for i in [1, 2, 3, 4, 5 ,6, 7, 8 , 9, 10]:
+...   print i
+... 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+>>> for noodle in ["spaghetti", "macaroni", "tortolini"]:
+...   print "my backwards noodle is", noodle[::-1]
+... 
+my backwards noodle is ittehgaps
+my backwards noodle is inoracam
+my backwards noodle is inilotrot
+>>> for noodle in ["spaghetti", "macaroni", "tortolini"]:
+...   print noodle[::-1],
+... 
+ittehgaps inoracam inilotrot
+>>> product = 1
+>>> i = 1
+>>> while i <= 10:
+...   product = product * i
+...   print product
+...   i = i + 1
+... 
+1
+2
+6
+24
+120
+720
+5040
+40320
+362880
+3628800
+>>> product = 1
+>>> i = 1
+>>> i <= 10
+True
+>>> product = product * i
+>>> print product
+1
+>>> i = i + 1
+>>> i
+2
+>>> i <= 10
+True
+>>> product = product * i
+>>> print product
+2
+>>> i = i + 1
+>>> i <= 10
+True
+>>> inpt = ""
+>>> while inpt != "done":
+...   print "you're not done"
+...   inpt = raw_input("are you done yet? ")
+... 
+you're not done
+are you done yet? no
+you're not done
+are you done yet? aaaaaaa
+you're not done
+are you done yet? done
+>>> 
+>>> 
+>>> import random
+>>> random.choice(["rock", "paper", "scissors"])
+'scissors'
+>>> random.choice(["rock", "paper", "scissors"])
+'rock'
+>>> random.choice(["rock", "paper", "scissors"])
+'paper'
+>>> random.choice(["rock", "paper", "scissors"])
+'paper'
+>>> random.choice(["rock", "paper", "scissors"])
+'scissors'
+>>> random.choice(["rock", "paper", "scissors"])
+'scissors'
+>>> random.choice(["rock", "paper", "scissors"])
+'paper'
+>>> random.choice(["rock", "paper", "scissors"])
+'paper'
+>>> random.choice(["rock", "paper", "scissors"])
+'rock'
+>>> combinations = { ("rock", "scissors"): 0, ("rock", "paper"): 1}
+>>> combinations[("rock", "scissors")]
+0
+>>> values = { "rock": 0, "paper": 1, "scissors": 2}
+>>> values["rock"]
+0
+>>> values["paper"]
+1
+>>> values["scissors"]
+2
+>>> 
