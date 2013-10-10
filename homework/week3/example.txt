@@ -1,0 +1,35 @@
+> Hello!  How are you?
+ Hello! How are you?
+> I'm fine, thanks.  Today has been a bit long, but that is kind of par for the course.
+ Hello! How are you?
+> I just told you that I am fine.
+ Hello! How are you?
+> Great.
+ Great. Today has been a bit long, but that is kind of par for the course.
+> Oh, I see, you're just going to parrot what I say back at me for the first while.
+ I'm fine.
+> Are you now.
+ I'm fine, thanks. Today has been a bit long, thanks. Today has been a bit long, but that is kind of par for the course.
+> Right, so far you're only able to switch what you're saying at periods and commas.  Hopefully this sentence will help you out more there.
+ I'm fine, you're saying at periods and commas.
+> No, you're saying different things starting at periods and commas.  You misunderstand.
+ Oh, I am fine.
+> You're such a silly program.
+ I'm fine, thanks.
+> I think you said that before.
+ I'm fine, you're just told you now.
+> Who told me what now?
+ I see, you're saying at periods and commas.
+> Alright, I think it is getting to be time to end this conversation and go to bed.
+ Great.
+> Yeah, I am looking forward to bed too.
+ Who told you out more there.
+> Nobody told me.
+ Yeah, I think it is kind of par for the course.
+> Nobody ever tells me, you're right.
+ I think you?
+> What do you think about me?
+ No, thanks.
+> Rejected!
+ I say back at periods and go to end this sentence will help you said that is kind of par for the course.
+> bye
