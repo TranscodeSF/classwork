@@ -113,6 +113,9 @@ Once you have a decent idea of what the function does, write down an
 English description of the specification in the docstring where it
 says `""" REPLACE THIS TEXT WITH YOUR ANSWER """`.
 
+Remember that a specification should describe what the point of a function is,
+and *not* what exactly all the steps in it do, or how it accomplishes its goal.
+
 The next few functions have a specification, but do not have a
 function body.  (pass is a python keyword that just plain does
 nothing.  We use it to stand in for function bodies we have not filled
