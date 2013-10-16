@@ -41,6 +41,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 'gnirts a ma I'
 >>> hangman.display_word_with_guesses("word", "abcde")
 ''
+
 >>> reload(hangman)
 <module 'hangman' from 'hangman.pyc'>
 >>>
