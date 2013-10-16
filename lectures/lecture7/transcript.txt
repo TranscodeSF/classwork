@@ -1,0 +1,46 @@
+gobo:lecture6 naomi master u=$ python
+Python 2.7.2 (default, Oct 11 2012, 20:14:37)
+[GCC 4.2.1 Compatible Apple Clang 4.0 (tags/Apple/clang-418.0.60)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> "a" in "transcode"
+True
+>>> "z" in "transcode"
+False
+>>> "a" not in "transcode"
+False
+>>> "z" not in "transcode"
+True
+>>> "5".isAlpha()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'isAlpha'
+>>> "5".is_alpha()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'is_alpha'
+>>> "5".isalpha()
+False
+>>> "a".isalpha()
+True
+>>> "z".isalpha()
+True
+>>> len("abc")
+3
+>>> len("a")
+1
+>>> ^D
+gobo:lecture6 naomi master u=$ cd ../lecture7/
+gobo:lecture7 naomi master u=$ ls
+__init__.py	hangman.py	hangman.py~
+gobo:lecture7 naomi master u=$ python
+Python 2.7.2 (default, Oct 11 2012, 20:14:37)
+[GCC 4.2.1 Compatible Apple Clang 4.0 (tags/Apple/clang-418.0.60)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import hangman
+>>> hangman.example("I am a string")
+'gnirts a ma I'
+>>> hangman.display_word_with_guesses("word", "abcde")
+''
+>>> reload(hangman)
+<module 'hangman' from 'hangman.pyc'>
+>>>
