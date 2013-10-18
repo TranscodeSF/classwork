@@ -1,0 +1,47 @@
+>>> def fibonacci(x):
+...   if x <= 1:
+...     return 1
+...   else:
+...     return fibonacci(x-1) + fibonacci(x-2)
+...
+>>> fibonacci(0)
+1
+>>> fibonacci(1)
+1
+>>> fibonacci(2)
+2
+>>> fibonacci(3)
+3
+>>> fibonacci(4)
+5
+>>> fibonacci(5)
+8
+>>> fibonacci(6)
+13
+>>> fibonacci(123)
+
+...
+
+>>> memory = {}
+>>> def betterFibonacci(x):
+...   if x in memory:
+...     return memory[x]
+...   elif x <= 1:
+...     memory[x] = 1
+...     return 1
+...   else:
+...     memory[x] = betterFibonacci(x-1) + betterFibonacci(x-2)
+...     return memory[x]
+...
+>>> betterFibonacci(123)
+36726740705505779255899443L
+>>> betterFibonacci(1)
+1
+>>> betterFibonacci(2)
+2
+>>> betterFibonacci(3)
+3
+>>> betterFibonacci(4)
+5
+>>> betterFibonacci(5)
+8
