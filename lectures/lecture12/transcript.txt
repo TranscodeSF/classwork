@@ -1,0 +1,539 @@
+Python 2.7.2 (default, Oct 11 2012, 20:14:37) 
+[GCC 4.2.1 Compatible Apple Clang 4.0 (tags/Apple/clang-418.0.60)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ("foo", 3)
+('foo', 3)
+>>> x, y = ("foo", 3)
+>>> x
+'foo'
+>>> y
+3
+>>> def fun(x):
+...     if x < 3:
+...             return "foo", x
+...     else:
+...             return "bar", x - 3
+... 
+>>> fun(5)
+('bar', 2)
+>>> thing, thing2 = fun(5)
+>>> ting
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ting' is not defined
+>>> thing
+'bar'
+>>> thing2
+2
+>>> x, y, z = bar(6)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'bar' is not defined
+>>> x, y, z = fun(6)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: need more than 2 values to unpack
+>>> fff = fun(6)
+>>> fff
+('bar', 3)
+>>> number_words = ['one', 'two', 'three', 'four', 'five']
+>>> ran = range(1, 6)
+>>> ran
+[1, 2, 3, 4, 5]
+>>> zip(number_words, ran)
+[('one', 1), ('two', 2), ('three', 3), ('four', 4), ('five', 5)]
+>>> zip(number_words, ran, range(5))
+[('one', 1, 0), ('two', 2, 1), ('three', 3, 2), ('four', 4, 3), ('five', 5, 4)]
+>>> zip(number_words, ran, range(4))
+[('one', 1, 0), ('two', 2, 1), ('three', 3, 2), ('four', 4, 3)]
+>>> for word, num in zip(number_words, ran):
+...   print num, "is spelled", word
+... 
+1 is spelled one
+2 is spelled two
+3 is spelled three
+4 is spelled four
+5 is spelled five
+>>> enumerate(number_words)
+<enumerate object at 0x1044eb730>
+>>> list(enumerate(number_words))
+[(0, 'one'), (1, 'two'), (2, 'three'), (3, 'four'), (4, 'five')]
+>>> for num, word in enumerate(number_words):
+...   print num+1, word
+... 
+1 one
+2 two
+3 three
+4 four
+5 five
+>>> lst = []
+>>> for num, word in enumerate(number_words):
+...     lst.append("%d is spelled %s" % (num+1, word))
+... 
+>>> lst
+['1 is spelled one', '2 is spelled two', '3 is spelled three', '4 is spelled four', '5 is spelled five']
+>>> import scrabble
+>>> scrabble.make_board()
+[[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]]
+>>> print "a",
+a
+>>> for num, word in enumerate(number_words):
+...     print num, word, 
+... 
+0 one 1 two 2 three 3 four 4 five
+>>>     print num, word
+  File "<stdin>", line 1
+    print num, word
+    ^
+IndentationError: unexpected indent
+>>> for num, word in enumerate(number_words):
+...     print num, word
+... 
+0 one
+1 two
+2 three
+3 four
+4 five
+>>> reload(scrabble)
+<module 'scrabble' from 'scrabble.py'>
+>>> b = scrabble.make_board()
+>>> scrabble.print_board(b)
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+>>> reload(scrabble)
+<module 'scrabble' from 'scrabble.py'>
+>>> scrabble.print_board(b)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+>>> reload(scrabble)
+<module 'scrabble' from 'scrabble.py'>
+>>> scrabble.print_board(b)
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+>>> b[4]
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+>>> reload(scrabble)
+<module 'scrabble' from 'scrabble.py'>
+>>> scrabble.play_letter("z", b, (7,7))
+>>> scrabble.print_board(b)
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . z . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+>>> scrabble.play_letter("q", b, (7,7))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "scrabble.py", line 24, in play_letter
+    raise Error('You tried to play %s, but the board contained %s' %
+NameError: global name 'Error' is not defined
+>>> reload(scrabble)
+<module 'scrabble' from 'scrabble.py'>
+>>> scrabble.play_letter("q", b, (7,7))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "scrabble.py", line 25, in play_letter
+    (letter, square['letter']))
+Exception: You tried to play q, but the board contained z
+>>> scrabble.play_letter("q", b, (7,8))
+>>> scrabble.print_board(b)
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . z q . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+>>> reload(scrabble)
+<module 'scrabble' from 'scrabble.py'>
+>>> b = scrabble.make_board()
+>>> bb = scrabble.play_word("TRANSCODE", b, (3, 4), scrabble.VERTICAL)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "scrabble.py", line 74, in play_word
+    play_letter(l, board, (row, column))
+  File "scrabble.py", line 23, in play_letter
+    square = board[row][column]
+IndexError: string index out of range
+>>> bb = scrabble.play_word("TRANSCODE", b, (0, 0), scrabble.VERTICAL)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "scrabble.py", line 74, in play_word
+    play_letter(l, board, (row, column))
+  File "scrabble.py", line 29, in play_letter
+    square['letter'] = letter
+TypeError: 'str' object does not support item assignment
+>>> reload(scrabble)
+<module 'scrabble' from 'scrabble.py'>
+>>> bb = scrabble.play_word("TRANSCODE", b, (0, 0), scrabble.VERTICAL)
+T
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "scrabble.py", line 75, in play_word
+    play_letter(l, board, (row, column))
+  File "scrabble.py", line 30, in play_letter
+    square['letter'] = letter
+TypeError: 'str' object does not support item assignment
+>>> b
+[[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]]
+>>> bb = scrabble.play_word("TRANSCODE", b, (0, 0), scrabble.VERTICAL)
+T
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "scrabble.py", line 75, in play_word
+    for l in word:
+  File "scrabble.py", line 30, in play_letter
+    print square
+TypeError: 'str' object does not support item assignment
+>>> reload(scrabble)
+<module 'scrabble' from 'scrabble.py'>
+>>> bb = scrabble.play_word("TRANSCODE", b, (0, 0), scrabble.VERTICAL)
+(0, 0) T
+T
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "scrabble.py", line 76, in play_word
+    play_letter(l, board, (row, column))
+  File "scrabble.py", line 31, in play_letter
+    square['letter'] = letter
+TypeError: 'str' object does not support item assignment
+>>> bb = scrabble.play_word(b, "TRANSCODE", (0, 0), scrabble.VERTICAL)
+(0, 0) {}
+{}
+(1, 0) {}
+{}
+(2, 0) {}
+{}
+(3, 0) {}
+{}
+(4, 0) {}
+{}
+(5, 0) {}
+{}
+(6, 0) {}
+{}
+(7, 0) {}
+{}
+(8, 0) {}
+{}
+>>> scrabble.print_board(bb)
+T . . . . . . . . . . . . . .
+R . . . . . . . . . . . . . .
+A . . . . . . . . . . . . . .
+N . . . . . . . . . . . . . .
+S . . . . . . . . . . . . . .
+C . . . . . . . . . . . . . .
+O . . . . . . . . . . . . . .
+D . . . . . . . . . . . . . .
+E . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+>>> bbb = scrabble.play_word(bb, "TRANSCODE", (0, 0), scrabble.HORIZONTAL)
+(0, 0) {'letter': 'T'}
+(0, 1) {}
+{}
+(0, 2) {}
+{}
+(0, 3) {}
+{}
+(0, 4) {}
+{}
+(0, 5) {}
+{}
+(0, 6) {}
+{}
+(0, 7) {}
+{}
+(0, 8) {}
+{}
+>>> scrabble.print_board(bbb)
+T R A N S C O D E . . . . . .
+R . . . . . . . . . . . . . .
+A . . . . . . . . . . . . . .
+N . . . . . . . . . . . . . .
+S . . . . . . . . . . . . . .
+C . . . . . . . . . . . . . .
+O . . . . . . . . . . . . . .
+D . . . . . . . . . . . . . .
+E . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . .
+>>> reload(scrabble)
+<module 'scrabble' from 'scrabble.py'>
+>>> ^D
+gobo:lecture12 naomi master u=$ 
