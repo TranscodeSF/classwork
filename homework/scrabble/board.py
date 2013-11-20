@@ -2,6 +2,14 @@ import copy
 
 #Get an array initialized, 15x15
 def make_board():
+    """
+    A board is a list of lists of dictionaries.
+
+    board[r][c] is the dictionary representing the square at row r and column c
+
+    A dictionary representing a square can have:
+    * A key 'letter' that contains a single letter that is played at that square.
+    """
     board = []
     for i in range(15):
         row = []
