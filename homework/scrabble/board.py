@@ -93,5 +93,6 @@ def read_board(str_board):
     lines = str_board.splitlines()
     for row, line in enumerate(lines):
         for col, letter in enumerate(line):
-            play_letter(letter, board, (row, col))
+            if letter.isalpha():
+                play_letter(letter, board, (row, col))
     return board
