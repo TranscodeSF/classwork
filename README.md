@@ -18,7 +18,7 @@ Follow the instructions in the "assignment.md" file for each week.
 [Week 3](https://github.com/TranscodeSF/classwork/tree/master/homework/week3)
 
 
-[Week 5](https://github.com/TranscodeSF/classwork/tree/master/homework/week5)
+[Week 4](https://github.com/TranscodeSF/classwork/tree/master/homework/week4)
 
 
 [Scrabble](https://github.com/TranscodeSF/classwork/tree/master/homework/scrabble)
