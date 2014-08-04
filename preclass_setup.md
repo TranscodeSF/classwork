@@ -12,7 +12,7 @@ All of the following instructions were tried on Windows XP, but should apply equ
 
 
 ###Install Python 2.7:
-Install Python 2.7.3 from this [link](http://www.python.org/ftp/python/2.7.3/python-2.7.3).msi
+Install Python 2.7.3 from this [link](http://www.python.org/ftp/python/2.7.3/python-2.7.3.msi)
 
 We recommend just picking all the default options and installing everything that it comes with.
 
