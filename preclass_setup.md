@@ -22,8 +22,8 @@ Some of the things you will read for Transcode will be in PDF format.  If you ca
 
 If you don’t have a PDF reader, you should do one of the following:
 
-*Option 1: Install [Chrome](https://www.google.com/chrome)
-*Option 2: Install [Adobe Acrobat](http://get.adobe.com/reader/)
+* Option 1: Install [Chrome](https://www.google.com/chrome)
+* Option 2: Install [Adobe Acrobat](http://get.adobe.com/reader/)
 
 After you have done one of those things, make sure you can click on the above link and see the document.
 
