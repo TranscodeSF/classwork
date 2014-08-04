@@ -4,7 +4,7 @@ software engineering methodology, and software design.
 
 #Setup
 Before you begin, please be sure to follow this link
- and [install all the required software](https://docs.google.com/document/d/15W7T-qfVfm07V0vsRKrWGK_Y-PRPXF_KQzxwwTn15Gs/).
+ and [install all the required software](https://github.com/TranscodeSF/classwork/blob/master/preclass_setup.md).
 
 #Classwork
 Follow the instructions in the "assignment.md" file for each week.
@@ -26,5 +26,6 @@ Follow the instructions in the "assignment.md" file for each week.
 #Flash Cards
 Run flash cards on your computer to practice Python.
 First download [flashcards.py](https://github.com/TranscodeSF/classwork/blob/master/flashcards.py) to your computer. 
-Then navigate to the directory the file is in on your computer and run:
+
+At your terminal, navigate to the directory the file is in and run:
 `python flashcards.py`
