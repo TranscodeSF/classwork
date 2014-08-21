@@ -1,5 +1,5 @@
 #Transcode Pre-class Setup
-Here are some instructions to install software that you will need to go through the [Transcode classwork](https://github.com/TranscodeSF/classwork).  If you have difficulty with any of these steps, you can get help from a Transcode TA.
+Here are some instructions to install software that you will need to go through the Transcode classwork.  If you have difficulty with any of these steps, you can get help from a Transcode TA.
 
 
 ##For Everyone
