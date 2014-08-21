@@ -51,4 +51,4 @@ Finally, the Python that tends to come with OSX is a little old.  Go to [python.
 At your terminal, run the command:
 `python` 
 
-You can type your Python code in here. Press control-D to get out of it.
+This opens up the Python interpreter where you can run Python code. Press control-D to exit the Python interpreter.
