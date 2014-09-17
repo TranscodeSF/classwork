@@ -13,19 +13,19 @@ Review lectures [here](https://github.com/TranscodeSF/classwork/tree/master/lect
 ##Assignments
 Follow the instructions in the "assignment.md" file for each week.
 
-[Week 1](https://github.com/TranscodeSF/classwork/tree/master/homework/week1)
+[Week 1](https://github.com/TranscodeSF/classwork/tree/master/assignments/week1)
 
 
-[Week 2](https://github.com/TranscodeSF/classwork/tree/master/homework/week2)
+[Week 2](https://github.com/TranscodeSF/classwork/tree/master/assignments/week2)
 
 
-[Week 3](https://github.com/TranscodeSF/classwork/tree/master/homework/week3)
+[Week 3](https://github.com/TranscodeSF/classwork/tree/master/assignments/week3)
 
 
-[Week 4](https://github.com/TranscodeSF/classwork/tree/master/homework/week4)
+[Week 4](https://github.com/TranscodeSF/classwork/tree/master/assignments/week4)
 
 
-[Scrabble](https://github.com/TranscodeSF/classwork/tree/master/homework/scrabble)
+[Scrabble](https://github.com/TranscodeSF/classwork/tree/master/assignments/scrabble)
 
 
 #Flash Cards
