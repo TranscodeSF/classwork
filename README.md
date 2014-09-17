@@ -7,6 +7,10 @@ Before you begin, please be sure to follow this link
  and [install all the required software](https://github.com/TranscodeSF/classwork/blob/master/preclass_setup.md).
 
 #Classwork
+##Lectures
+Review lectures [here](https://github.com/TranscodeSF/classwork/tree/master/lectures)
+
+##Assignments
 Follow the instructions in the "assignment.md" file for each week.
 
 [Week 1](https://github.com/TranscodeSF/classwork/tree/master/homework/week1)
@@ -22,6 +26,7 @@ Follow the instructions in the "assignment.md" file for each week.
 
 
 [Scrabble](https://github.com/TranscodeSF/classwork/tree/master/homework/scrabble)
+
 
 #Flash Cards
 Run flash cards on your computer to practice Python.
