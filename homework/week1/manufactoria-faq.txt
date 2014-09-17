@@ -1,0 +1,87 @@
+Basic Controls: There is a palette of different kinds of items that you can place on the left panel of the game.  These have numbers underneath them.  To place a conveyor belt, you can either press 1 or click on the conveyor belt icon in the left panel and then left click in the grid to place it.  The W, A, S, and D keys rotate the piece and spacebar will flip before placing it.  To delete something, press 3 or click the trash can, then left click on the grid cell you want to delete.
+
+The Robot:  This is that little guy that you are 'testing', the part that
+moves around the level.  The goal is to get robots with the correct
+input/output from the top of the level to the bottom exit, while discarding
+the rest.
+
+The Tape: The tape is the part of the game that displays all those red and
+blue dots.  Note that the game will always READ the tape from the left side
+(the beginning) and WRITE new dots on the end.  More on writing later.
+
+The Code, or String: String is, I think, a programming term for a section of
+code.  In this case the code is represented by Red and Blue dots
+(later Yellow and Green).  In later levels, these dots represent binary
+code, with blue being 1 and red being 0.  The manipulation of these dots is
+what this game is all about!
+
+Conveyer belts:  These simply move the robot throughout the levels.  A robot
+can approach a conveyer belt from any direction.  For example a robot could
+be placed on two conveyer belts both pointing at each other, and the robot
+would keep going back and forth infinitely.
+
+Conveyer belts are also the only tool that can be 'stacked', or 'bridged.'
+Later levels will use this bridging quite a bit.  After building one
+conveyer belt, add a bridge by holding down the shift key and placing
+another bridge on top of your original in a different angle.  You should
+end up with a plus sign looking configuration.
+
+When a robot enters a tile that has a bridge, it will take the path in line
+with it's original direction.  If a robot enters a  bridged tile from the
+left it will always follow the horizontal path.  Note this is not the case
+with unbridged tiles, as the robot will follow the conveyer belt in any
+direction in that case.
+
+Branches:  These are tools that 'read' the tape, and send the robot in one
+of three different directions.  There are two types of tapes, and they both
+behave exactly the same.  There is a Red/Blue branch (R/B), and a
+Yellow/Green branch (Y/G).  In both cases they will look at the FIRST symbol
+on the tape.  If the symbol matches one of the colors on the branch, that
+color will be REMOVED from the tape, and the robot will go in the direction
+of that color on the branch.  If the symbol is NOT on the branch, it will
+NOT BE removed from the tape, and continue down the in between arrow on the
+branch.
+
+For example the current 'string' is Red-Yellow.  If the string goes to a
+Yellow / Green branch, it will pass through and the string will remain Red -
+Yellow.  (Strings are not altered by a branch if the correct color is not
+detected).  However if the same string passed through a Red – Blue branch,
+the machine would take off the 'Red', and send the robot down the red path.
+
+A VERY IMPORTANT point to remember about branches is that once a branch has
+read a color, that color is REMOVED.  To replace colors that have been
+removed from your code, you will need to use writers.
+
+Writers: Writers simply ADD the corresponding color to the END of your
+string, and send the robot on along the arrow.  Think of writers as a
+conveyer belt that adds a color.
+
+The Select Tool:  The select tool allows you to manipulate large portions of
+your level at the same time.  It is also a little under-explained in the
+game.  Selecting sections of your level is easy, simply select the select
+tool.  Now click and hold while dragging the mouse over an area.  Release
+the mouse once you have selected the required area.
+
+When you have a selected area, there are several things you can do:
+
+Press the delete key to delete all selections.
+Press Shift + C to copy your selection.
+Note you can copy selections between levels.  This is very useful in later
+levels, when a section of your new machine may have already been built in an
+earlier level.
+Press Shift + V after copying to paste your solution.  You will be able to
+move the pasted selection around before placing it like a normal tool.
+To further manipulate a selection, you must first CLICK AND DRAG your
+selection.  You should see your entire selection 'lift off' and start
+following your mouse.  While your selection is 'hovering' like this, you can:
+Press the A or D keys to rotate your selection.
+Press the spacebar to flip (reverse) your selection.
+Note this does not reverse the 'polarity' (colors) on switches.  [at least at
+the time of this writing]
+Simply move your selection
+When you are finished doing any of the above, simply release the mouse button
+when your tiles are where you want them to be.  NOTE: These moved tiles will
+overwrite any existing tiles on the board, so be careful!
+
+
+(This file has mostly been copied and pasted from GameFAQs, but with all solutions removed.)

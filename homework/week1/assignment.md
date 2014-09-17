@@ -1,62 +1,29 @@
 #Welcome to Transcode!
 
-It's time for your first homework assignment.  For things that expect
-an answer in written english, just type the answers into this file on
-their own line, and push it to your remote git repository with the rest
-of your homework.
-
-If you have not completed the Transcode pre-class setup, please be sure to
-follow this link and [install all the required software](https://docs.google.com/document/d/15W7T-qfVfm07V0vsRKrWGK_Y-PRPXF_KQzxwwTn15Gs/)
-
-For more information about git, please see the Transcode [git survival guide](https://docs.google.com/document/d/1_tGsZHWksC9U2XoBxkN5QrtFcdACfQUV0qeugCJzAzc/)
-
-If you are new to Linux, you may also want to see this [Linux guide](https://docs.google.com/document/d/1yqysf74rdhGpO59Wh0DgMsYaSHYSfmL7FdXMmxPOL58/)
+It's time for your first homework assignment.  For things that expect an answer in written english, just type the answers into this file on their own line.
 
 
-## 0. Git setup
+## 0. Lecture slides and setup
 
-We'll be doing this problem in class.  Right below this prompt,
-write a sentence of your choice, and then check that in to your local
-git repository:
+Review the lecture 1 slides. If you don't understand the lecture slides, please get help from a TA.
 
-    git commit -a -m 'Answering question 0'
-
-Proceed to push that to your remote git repository on github.
-
-    git push
-
-Write your sentence here:
+If you have not completed the Transcode pre-class setup, please be sure to follow this link and [install all the required software](https://github.com/TranscodeSF/classwork/blob/master/preclass_setup.md)
 
 
 ## 1. Play through the first three levels of [Manufactoria](http://pleasingfungus.com/Manufactoria/)
 
-You may wonder why we're assigning you to play a game.  This game in
-particular helps you think like a programmer and to visually design
-algorithms.  I also think it's fun.
+You may wonder why we're assigning you to play a game.  This game in particular helps you think like a programmer and to visually design algorithms.  I also think it's fun.
 
-You may be able to pick up exactly what you need to do from playing
-the game.  If you need a better explanation of the concepts or the
-basic controls, look at the manufactoria-faq.txt file in the
-classresources directory.  Even when you know what they are, the
-controls are a little cumbersome and may take some getting used to.
+You may be able to pick up exactly what you need to do from playing the game.  If you need a better explanation of the concepts or the basic controls, look at the manufactoria-faq.txt file this directory.  Even when you know what they are, the controls are a little cumbersome and may take some getting used to.
 
-And yes, as you might be wondering, hints and answers to this entire
-game are available online, but struggling and finding the answers
-yourself is the only way to learn.  Please resist the temptation to
-cheat yourself.
+And yes, as you might be wondering, hints and answers to this entire game are available online, but struggling and finding the answers yourself is the only way to learn.  Please resist the temptation to cheat yourself.
 
-Put a screenshot of your solution to the third level in this directory
-under the name 'manufactoria.png' (or whatever image format you
-prefer).  The third level in particular is a LOT trickier than the
-first two, so don't be surprised if it takes longer.
+Put a screenshot of your solution to the third level in this directory under the name 'manufactoria.png' (or whatever image format you prefer).  The third level in particular is a LOT trickier than the first two, so don't be surprised if it takes longer.
 
 
 ## 2. Low-level programming
 
-In lecture, we put up the memory layout of a computer program to do
-exponentiation.  Let's do another problem like that, but with a
-different program.  Remember, square brackets like [this] mean "the
-number stored in this slot":
+In the lecture 1 slides, we put up the memory layout of a computer program to do exponentiation.  Let's do another problem like that, but with a different program.  Remember, square brackets like [this] mean "the number stored in this slot":
 
     00: Store the remainder of [10]/[11] in slot 12
     01: if [12] is 0 go to step 05
@@ -75,16 +42,14 @@ number stored in this slot":
     16:
     17:
 
-Feel free to use the above as space to actually work out the
-answer. What does this output?
+Feel free to use the above as space to actually work out the answer. What does this output?
 
-Try the same program with some other inputs in slots 10 and 11.  What
-does this program compute?
+Try the same program with some other inputs in slots 10 and 11.  What does this program compute?
+
 
 ## 3. Low-level programming II
 
-Another one of the same, but instead of writing out exactly what
-every instruction does, we'll use some abbreviations for our instructions:
+Another one of the same, but instead of writing out exactly what every instruction does, we'll use some abbreviations for our instructions:
 
 Math:
 
@@ -138,10 +103,29 @@ Read chapter 1 of *Think Python: How to Think Like a Computer Scientist*
 Most readings for the beginning of the class will come from this textbook.  You can also access it online [here](http://www.greenteapress.com/thinkpython/)
 
 
-## 5. Finally:
+## 5. Mad Lib
+Write a program in a file (e.g. madlib.py) that prompts the user with at least three questions (at least one string and one integer).  Once the program has this information, it should then print a funny sentence using those inputs.
 
-How much time did this problem set take you?
+For example:
+    Transcode Madlibstravaganza
+    ---------------------------
+    Input a name: Naomi
+    Input a place: the grocery store
+    Input a number: 42
+    Input an adjective: violet
+    Input a noun: hair
 
-What, if anything, did you have trouble with?
+    Vacation tips, by Naomi.
 
-What, from lecture, would you like us to cover more clearly?
+    When travelling to the grocery store, don't forget to bring at least 42 pounds of violet hair.
+
+
+## 6. Fizz Buzz
+Write a program in a file (e.g. ) that prints the numbers from 1 to 100.  But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz".  For numbers which are multiples of both three and five print "FizzBuzz".
+
+For this assignment you will want to use the modulo operator `%`. The modulo operator yields the remainder from the division of the first argument by the second. For example:
+```
+a = 5
+b = 3
+r = a % b  # 2
+```
