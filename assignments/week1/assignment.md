@@ -5,7 +5,7 @@ It's time for your first homework assignment.  For things that expect an answer 
 
 ## 0. Lecture slides and setup
 
-Review the lecture 1 slides. If you don't understand the lecture slides, please get help from a TA.
+Review the [week 1 lecture slides](https://github.com/TranscodeSF/classwork/tree/master/lectures/week1). If you don't understand the lecture slides, please get help from a TA.
 
 If you have not completed the Transcode pre-class setup, please be sure to follow this link and [install all the required software](https://github.com/TranscodeSF/classwork/blob/master/preclass_setup.md)
 
