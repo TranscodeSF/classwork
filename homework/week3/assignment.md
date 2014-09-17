@@ -1,11 +1,6 @@
 #Functions
 
-Week 3-4's homework is all about learning to do functions.  You have two weeks to
-finish the assignment. For the first week, finish the reading, Rock Paper
-Scissors, and Function Practice.  For the second week, finish the Markov Chain
-problem.  Please do not wait until the last day to do either of these.  If you
-have questions about how functions or Python or anything works, please feel free
-to email the discuss list!
+Week 3's assignment is all about learning to do functions. Finish the reading, Rock Paper Scissors, and Function Practice first, then finish the Markov Chain problem.  If you have questions about how functions or Python or anything works, please feel free to get help from a TA.
 
 ## Reading
 
@@ -164,13 +159,3 @@ Note that if you do this correctly, the program will still generally
 take a bit of time to warm up to being able to say different things.
 For an example of how a conversation with a correctly-functioning
 program can go, see example.txt
-
-## Survey
-
-How long did this assignment take you?
-
-What did you enjoy about it?
-
-What did you have a hard time with?
-
-What should we go over more in class?
