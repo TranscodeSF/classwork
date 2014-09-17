@@ -33,5 +33,4 @@ suggestions of helper functions you might want to have:
   * are_squares_connected(board)
   * mark_connected_squares(board)
 
-Please do email `info@transcodesf.org` if you run into any questions.  This is
-the most independent you've been in a homework yet, and it is not easy stuff.
+Please ge help from a TA if you run into any questions.  This is the most independent you've been in an assignment yet, and it is not easy stuff.
