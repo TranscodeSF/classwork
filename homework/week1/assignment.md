@@ -107,6 +107,8 @@ Most readings for the beginning of the class will come from this textbook.  You 
 Write a program in a file (e.g. madlib.py) that prompts the user with at least three questions (at least one string and one integer).  Once the program has this information, it should then print a funny sentence using those inputs.
 
 For example:
+
+
     Transcode Madlibstravaganza
     ---------------------------
     Input a name: Naomi
