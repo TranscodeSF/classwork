@@ -122,8 +122,8 @@ For example:
     When travelling to the grocery store, don't forget to bring at least 42 pounds of violet hair.
 
 
-## 6. Fizz Buzz
-Write a program in a file (e.g. ) that prints the numbers from 1 to 100.  But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz".  For numbers which are multiples of both three and five print "FizzBuzz".
+## 6. FizzBuzz!
+Write a program in a file (e.g. fizzbuzz.py) that prints the numbers from 1 to 100.  But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz".  For numbers which are multiples of both three and five print "FizzBuzz".
 
 For this assignment you will want to use the modulo operator `%`. The modulo operator yields the remainder from the division of the first argument by the second. For example:
 ```
@@ -131,3 +131,5 @@ a = 5
 b = 3
 r = a % b  # 2
 ```
+
+You will also find the keywords `for`, `range`, and `if` helpful.
