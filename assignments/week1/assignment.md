@@ -101,35 +101,3 @@ In general, what will this program output, given any input in slot 10?
 Read chapter 1 of *Think Python: How to Think Like a Computer Scientist*
 
 Most readings for the beginning of the class will come from this textbook.  You can also access it online [here](http://www.greenteapress.com/thinkpython/)
-
-
-## 5. Mad Lib
-Write a program in a file (e.g. madlib.py) that prompts the user with at least three questions (at least one string and one integer).  Once the program has this information, it should then print a funny sentence using those inputs.
-
-For example:
-
-
-    Transcode Madlibstravaganza
-    ---------------------------
-    Input a name: Naomi
-    Input a place: the grocery store
-    Input a number: 42
-    Input an adjective: violet
-    Input a noun: hair
-
-    Vacation tips, by Naomi.
-
-    When travelling to the grocery store, don't forget to bring at least 42 pounds of violet hair.
-
-
-## 6. FizzBuzz!
-Write a program in a file (e.g. fizzbuzz.py) that prints the numbers from 1 to 100.  But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz".  For numbers which are multiples of both three and five print "FizzBuzz".
-
-For this assignment you will want to use the modulo operator `%`. The modulo operator yields the remainder from the division of the first argument by the second. For example:
-```
-a = 5
-b = 3
-r = a % b  # 2
-```
-
-You will also find the keywords `for`, `range`, and `if` helpful.
