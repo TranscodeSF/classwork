@@ -1,3 +1,10 @@
+# Assignment 5 Part 1
+
+This week you will be programming a scrabble game.
+
+
+## Scrabble Validation
+
 Your goal is to make the validator_test.py pass all three tests by
 completing the validate() function in validator.py.
 
@@ -10,6 +17,7 @@ You're going to be writing some code like:
        #do something to read f.
 
 to read in the word list.
+
 
 ## Hints:
 

@@ -1,3 +1,6 @@
+# Assignment 1 Part 2
+
+
 ## 0. Hello World!
 
 In the lecture 2 slides we saw how to print "Hello World".  Now you are goiong to write your own hello world program.  Use an IDE or a text editor to create a new file to write your program in.  Write a program in a file that outputs "Hello World!" when run.  When saving your file, choose a name such as "hello.py".  Make sure to use the ".py" extension.

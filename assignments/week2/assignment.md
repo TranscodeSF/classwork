@@ -1,3 +1,6 @@
+# Assignment 2 Part 1
+
+
 ## Reading
 
 Read chapter 2 from [*Think Python: How To Think Like a Computer Scientist*](http://www.greenteapress.com/thinkpython/html/thinkpython003.html)
@@ -28,6 +31,7 @@ describe in English what they mean:
 
 What's the difference between `x[2:3]` and `x[2]`?
 
+
 ## List sorting
 
 In the provided file listsorter.py, write a program that prompts a
@@ -50,6 +54,7 @@ handy functions that you can call on lists.
 You can assume that the user of this program will always enter a
 number. Don't worry about handling non-number input.
 
+
 ## Practice with dicts
 
 You're going to write a mini-database of favorite foods. Think of 5 people you
@@ -71,6 +76,7 @@ exception. Although, if you're interested in how you would handle
 this, check out
 [try statements](http://docs.python.org/reference/compound_stmts.html#try)
 
+
 ## Practice with finding information
 
 Use the internet to figure out how to get python to give you a random
@@ -90,6 +96,7 @@ Hint:
 is a python statement that makes module foo available from your
 program.  For example, if there is a function in foo called flip(),
 then you would be able to write foo.flip() in your program.
+
 
 ## Manufactoria
 

@@ -1,11 +1,13 @@
-#Functions
+# Assignment 3
 
-Week 3's assignment is all about learning to do functions. Finish the reading, Rock Paper Scissors, and Function Practice first, then finish the Markov Chain problem.  If you have questions about how functions or Python or anything works, please feel free to get help from a TA.
+This assignment is all about learning to do functions. Finish the reading, Rock Paper Scissors, and Function Practice first before you work on the the Markov Chain problem. If you have questions about how functions or Python or anything works, please feel free to get help from a TA.
+
 
 ## Reading
 
 Read [chapter 3](http://www.greenteapress.com/thinkpython/html/thinkpython004.html) from the
 Think Python book
+
 
 ## Rock Paper Scissors
 
@@ -59,12 +61,20 @@ output:
 
     OK
 
+
+## Binary Search
+
+Inspect the file binarysearch.py in this directory.  Especially look at the spec.
+Write more tests for binarysearch.py, in the file binarysearch_test.py.
+
+
 ## Function practice
 
 Open up practice.py in your text editor.  It has further instructions in the
 file itself.  There are 5 function bodies to fill out, 1 function specification
 to write, and then at the bottom some code to write to call all of the functions
 that you just wrote.
+
 
 ## Markov Chains
 

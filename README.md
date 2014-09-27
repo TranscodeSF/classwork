@@ -25,7 +25,7 @@ Follow the instructions in the "assignment.md" file for each week.
 [Week 4](https://github.com/TranscodeSF/classwork/tree/master/assignments/week4)
 
 
-[Scrabble](https://github.com/TranscodeSF/classwork/tree/master/assignments/scrabble)
+[Week 5](https://github.com/TranscodeSF/classwork/tree/master/assignments/week5)
 
 
 #Flash Cards

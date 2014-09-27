@@ -1,7 +1,8 @@
-# Taking Turns
+# Assignment 5 Part 2
 
 You can validate scrabble boards.  Now it's time to work out how to have your
 players take turns, and play the game.
+
 
 ## A bag of letters
 
@@ -10,6 +11,7 @@ frequencies](http://en.wikipedia.org/wiki/Scrabble_letter_distributions) in Scra
 
 Write a function to "draw" a letter from the bag -- it should return the drawn
 letter, and afterwards the bag should no longer contain it.
+
 
 ## Making moves
 
@@ -22,6 +24,7 @@ To be valid a move has to have two properties:
 * It's a valid move with respect to the board (you did this in the last part)
 * All the *new* letters on the board for the move were members of the rack (keep
   in mind that if the word has two As in it, the rack has to have two As in it)
+
 
 ## Turns
 

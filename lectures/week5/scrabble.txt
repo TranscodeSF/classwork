@@ -1,0 +1,62 @@
+Letters to choose from!
+* Bag of remaining unchosen letters
+
+Current board state
+* Positions of letters in play
+* Is the board valid?
+  - Checking against a dictionary
+  - All contiguous tiles
+    * start in the center
+    * color it
+    * repeat: color all the tiles that touch any 
+      currently colored tile
+    * Until you do a step of this and can color no more
+    * Check for any uncolored tiles -- that means 
+      non-contiguous.
+    ... if the board is DICTIONARIES, you can 
+    have a color property.
+    
+  - A "word" to check is more than one tile in a
+    row, without any empty tiles
+    . Function to find all the words on the board
+    . Goes by row and by column, finds all the words 
+      (sequences of > 1 letter not broken by a 
+      unplayed square) in that row and column
+      x Function that partitions a given row or 
+        column into words.
+Ideas on how to represent the board:
+Array of arrays 
+  containing dictionaries that can have 
+  muliple properties.
+
+How do you display the board?
+A function to print out each row nicely.
+
+
+Players
+* Rack of 7 letters
+* Scores
+  - Letters have point values
+  - Squares on the board have score modifiers
+  - Using all your tiles has a +50 bonus
+  - The score of a turn:
+    * all letters YOU played modified by their squares
+    * letters already in words you're using in your
+      play, modified by WORD multipliers from letters
+      you played but not letter multipliers
+
+* Turns
+  - Set down a word OR
+    . Put down tiles from your rack such that:
+      x The board is valid afterwards
+      x Tiles that you put down must be in a line
+      x Tiles that you put down must not leave any gaps
+    . Draw to replacement (if possible)
+  - exchange letters
+    . Put all 7 tiles back in the bag, get 7
+      new random tiles.
+
+Players alternate turns.
+
+Playing against a computer?
+* Computer strategy?
